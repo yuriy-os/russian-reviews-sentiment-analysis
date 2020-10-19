@@ -2,9 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
-I just wanted to try out :hugs: Huggingface's new [Trainer API](https://huggingface.co/transformers/main_classes/trainer.html) and get up-to-date with recent [torchtext](https://pytorch.org/text/) releases, also I've stumbled upon on an interesting Russian reviews [dataset](https://github.com/sismetanin/rureviews).
-
-So I decided to perform sentiment classification gradually increasing the complexity of classifiers and compare their performance.
+I just wanted to try out :hugs: Huggingface's new [Trainer API](https://huggingface.co/transformers/main_classes/trainer.html) and get up-to-date with recent [torchtext](https://pytorch.org/text/) releases, also I've stumbled upon on an interesting Russian reviews [dataset](https://github.com/sismetanin/rureviews). So I decided to perform sentiment classification, gradually increasing the complexity of classifiers and compare their performance.
 
 ## Data
 

@@ -10,11 +10,11 @@ You can see [dataset overview](https://github.com/sismetanin/rureviews#dataset-o
 
 ## Models
 
-I chose TF-IDF and SVM as a baseline model, CNN (because it was used in the original article) and [DeepPavlov's RuBERT](https://huggingface.co/DeepPavlov/rubert-base-cased-conversational) (rubert-base-cased-conversational).
+I chose TF-IDF and SVM as a baseline model, CNN (because it was used in the original article) and [DeepPavlov's RuBERT](https://huggingface.co/DeepPavlov/rubert-base-cased-conversational) (rubert-base-cased-conversational), because I just wanted to try it out.
 
 ## Results
 
-| Model                                            | Precision (macro) | Recall (macro) | F1-score (macro) |
+| Model                                               | Precision (macro) | Recall (macro) | F1-score (macro) |
 | --------------------------------------------------- | ----------------- | -------------- | ---------------- |
 | MNB, **article**                                    | 74.47             | 73.79          | 73.90            |
 | CNN (without emoticons), **article**                | 74.71             | 74.54          | 74.31            |

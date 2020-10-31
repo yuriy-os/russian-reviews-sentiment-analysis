@@ -45,8 +45,8 @@ if __name__ == "__main__":
     training_args = TrainingArguments(
         output_dir="./results",
         num_train_epochs=1,
-        per_gpu_train_batch_size=16,
-        per_gpu_eval_batch_size=32,
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=32,
         warmup_steps=500,
         weight_decay=0.01,
         evaluate_during_training=True,

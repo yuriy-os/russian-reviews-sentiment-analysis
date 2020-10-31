@@ -1,0 +1,9 @@
+torch
+torchtext
+pandas
+scikit-learn
+gensim
+numpy
+tqdm
+transformers
+datasets

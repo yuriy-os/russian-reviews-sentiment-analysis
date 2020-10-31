@@ -1,6 +1,6 @@
 # russian-reviews-sentiment-analysis
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18u8LX5m3s18fYpVDP0UWlg9h0ZVmphe7?usp=sharing)
 
 I just wanted to try out :hugs: Huggingface's new [Trainer API](https://huggingface.co/transformers/main_classes/trainer.html) and get up-to-date with recent [torchtext](https://pytorch.org/text/) releases, also I've stumbled upon on an interesting Russian reviews [dataset](https://github.com/sismetanin/rureviews). So I decided to perform sentiment classification, gradually increasing the complexity of classifiers and compare their performance.
 

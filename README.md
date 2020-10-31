@@ -16,9 +16,12 @@ I chose TF-IDF and SVM as a baseline model, CNN (because it was used in the orig
 
 | Model                                               | Precision (macro) | Recall (macro) | F1-score (macro) |
 | --------------------------------------------------- | ----------------- | -------------- | ---------------- |
-| MNB, **article**                                    | 74.47             | 73.79          | 73.90            |
-| CNN (without emoticons), **article**                | 74.71             | 74.54          | 74.31            |
-| CNN (with emoticons), **article**                   | 75.63             | 75.31          | 75.45            |
-| TF-IDF + SVM, **mine**                              |                   |                |                  |
-| CNN (without emoticons), **mine**                   |                   |                |                  |
-| RuBERT (rubert-base-cased-conversational), **mine** |                   |                |                  |
+| MNB (**article**)                                   | 74.47             | 73.79          | 73.90            |
+| CNN (without emoticons) (**article**)               | 74.71             | 74.54          | 74.31            |
+| CNN (with emoticons) (**article**)                  | 75.63             | 75.31          | 75.45            |
+| TF-IDF + SVM (**mine**)                             | 74.44             | 74.46          | 74.45            |
+| CNN (**mine**)                                      | 75.51             | 74.99          | 75.19            |
+| RuBERT (rubert-base-cased-conversational) (**mine**)|                   |                |                  |
+
+## References
+1. Smetanin, S., & Komarov, M. (2019, July). Sentiment Analysis of Product Reviews in Russian using Convolutional Neural Networks. In 2019 IEEE 21st Conference on Business Informatics (CBI) (Vol. 1, pp. 482-486). IEEE.

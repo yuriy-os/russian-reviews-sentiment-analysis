@@ -11,6 +11,7 @@ You can see [dataset overview](https://github.com/sismetanin/rureviews#dataset-o
 ## Models
 
 I chose TF-IDF and SVM as a baseline model, CNN (because it was used in the original article) and [DeepPavlov's RuBERT](https://huggingface.co/DeepPavlov/rubert-base-cased-conversational) (rubert-base-cased-conversational), because I just wanted to try it out.
+Also, creators of the [original dataset](https://github.com/sismetanin/rureviews#dataset-overview) have provided custom trained embeddings, so I decided to use them also.
 
 ## Results
 
